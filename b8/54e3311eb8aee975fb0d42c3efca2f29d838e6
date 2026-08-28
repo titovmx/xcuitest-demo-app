@@ -1,0 +1,42 @@
+README.md
+  s_16351bfae45aa6::t_c2899e1500381b 1-71
+project.yml
+  s_16351bfae45aa6::t_4d4c6c1d2fea3d 1-43
+ToDoApp/AddTaskView.swift
+  s_16351bfae45aa6::t_e3ec88b73648d1 1-45
+ToDoApp/ToDoApp.swift
+  s_16351bfae45aa6::t_e3ec88b73648d1 1-12
+ToDoAppUITests/TaskListUITests.swift
+  s_16351bfae45aa6::t_aef2538aa60eec 13,27,58
+  s_16351bfae45aa6::t_8ad08839c4a043 1-12,14-26,28-57,59-62
+ToDoAppUITests/XCUIApplication+ToDo.swift
+  s_16351bfae45aa6::t_8ad08839c4a043 1-22
+.gitignore
+  s_16351bfae45aa6::t_4d4c6c1d2fea3d 1-8
+.github/workflows/ci.yml
+  s_16351bfae45aa6::t_c2899e1500381b 1-46
+ToDoAppUITests/AddTaskUITests.swift
+  s_16351bfae45aa6::t_8ad08839c4a043 1-32,34-46
+  s_16351bfae45aa6::t_aef2538aa60eec 33
+ToDoApp/TaskListView.swift
+  s_16351bfae45aa6::t_e3ec88b73648d1 1-14,21-63
+  s_16351bfae45aa6::t_aef2538aa60eec 15-20
+ToDoApp/TaskStore.swift
+  s_16351bfae45aa6::t_e3ec88b73648d1 1-31
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "b854e3311eb8aee975fb0d42c3efca2f29d838e6",
+  "prompts": {},
+  "sessions": {
+    "s_16351bfae45aa6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "5a7d835c-8cd6-400c-af8c-b5a66808d346",
+        "model": "claude-opus-5"
+      },
+      "human_author": "Maxim Titov <mtitov92@gmail.com>"
+    }
+  }
+}
