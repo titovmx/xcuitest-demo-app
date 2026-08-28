@@ -1,0 +1,8 @@
+# XcodeGen generates the project from project.yml - don't commit it.
+ToDoApp.xcodeproj/
+DerivedData/
+build/
+*.xcresult
+TestResults*
+.DS_Store
+xcuserdata/
