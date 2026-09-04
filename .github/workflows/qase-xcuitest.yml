@@ -19,8 +19,8 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  QASE_PROJECT_CODE: ${{ inputs.qase_project_code || 'DEMO' }}
-  QASE_API_BASE_URL: ${{ inputs.qase_api_base_url || 'https://app-aut-283.fe.qase.dev/api/v1' }}
+  QASE_PROJECT_CODE: ${{ 'JUL' }}
+  QASE_API_BASE_URL: ${{ 'https://api.qase.io/v1' }}
   QASECTL_VERSION: v0.4.0
   XCODE_APP: /Applications/Xcode_16.4.app
   XCRESULT_PATH: build/TestResults.xcresult
@@ -31,7 +31,7 @@ jobs:
     runs-on: macos-15
     timeout-minutes: 60
     env:
-      QASE_TESTOPS_API_TOKEN: ${{ secrets.QASE_TESTOPS_API_TOKEN }}
+      QASE_TESTOPS_API_TOKEN: ${{ secrets.QASE_TESTOPS_API_TOKEN_JUL }}
     steps:
       - uses: actions/checkout@v7
 
